@@ -4,22 +4,18 @@ import { FriendList } from "./Friends/FriendList";
 import { Transaction } from "./Transactions/Transactions";
 
 
-import user from './/Data/user.json';
-import data from './Data/data.json';
-import friends from './Data/friends.json';
-import transactions from './Data/transactions.json';
+import user from 'data/user.json';
+import data from 'data/data.json';
+import friends from 'data/friends.json';
+import transactions from 'data/transactions.json';
+
+import css from './App.module.css'
 
 export const App = () => {
   return (
-      <div style={{
-        height: 'auto',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}>
-        <div> <Profile
+    <div className={css.container}>
+    <div> 
+    <Profile
     username={user.username}
     tag={user.tag}
     location={user.location}
