@@ -1,9 +1,8 @@
-
 .container {
-	height: auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 40px;
-   color: black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: black;
 }
